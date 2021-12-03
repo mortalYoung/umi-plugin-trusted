@@ -1,0 +1,24 @@
+.trusted-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trusted-card {
+  padding: 10px 24px;
+  border: 1px solid #ebedf1;
+  text-align: center;
+  margin: 0 -1px -1px 0;
+}
+
+.trusted-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+[data-prefers-color='dark'] .trusted-card {
+  border-color: #3b434b;
+}
